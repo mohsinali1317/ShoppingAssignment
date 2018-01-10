@@ -17,10 +17,14 @@ namespace ShoppingWebsiteMVC.Controllers
 
         public static List<Cart> Cart = new List<Cart>();
 
+
+        public List<string> Images = new List<string>() { "item1.jpeg", "item2.png", "item3.jpeg", "item4.jpeg"};
+
         // GET: Products
         public ActionResult Index()
         {
             ViewBag.Cart = Cart;
+            ViewBag.Images = Images;
             return View(db.Products.ToList());
         }
 

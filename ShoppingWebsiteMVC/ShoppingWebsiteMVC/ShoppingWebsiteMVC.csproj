@@ -189,6 +189,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\item1.jpeg" />
+    <Content Include="Images\item2.png" />
+    <Content Include="Images\item3.jpeg" />
+    <Content Include="Images\item4.jpeg" />
     <Content Include="Models\ShoppingWebsiteModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ShoppingWebsiteModel.edmx</DependentUpon>
